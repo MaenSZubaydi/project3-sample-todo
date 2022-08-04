@@ -1,0 +1,28 @@
+.TodoList {
+    width: 500px;
+    height: 76%;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+header {
+    margin: 2% auto;
+}
+
+.List {
+    width: 100%;
+    overflow-y: scroll;
+    height: 80%;
+}
+
+/* To make it responsive */
+@media screen and (max-width: 550px) {
+    .TodoList {
+        width: 85%;
+    }
+}

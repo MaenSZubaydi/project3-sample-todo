@@ -1,0 +1,28 @@
+*{ /* To reset the style */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #c7ecee;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 1vh 2vw;
+  color: #fff;
+  border-radius: 5px;
+  transition: .5s ease;
+}
+
+button:hover {
+  background: transparent;
+  color: #333;
+}
+
+.errorMessage {
+  color: #b60000;
+}

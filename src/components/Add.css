@@ -1,0 +1,20 @@
+.Add {
+    margin: 2% auto 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.Add input {
+    flex: 1;
+    border-radius: 5px;
+    padding: .7vh;
+    font-family: inherit;
+    border: 2px solid #22a6b3;
+}
+
+.Add button{
+    background: #22a6b3;
+}

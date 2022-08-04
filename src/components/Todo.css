@@ -1,0 +1,25 @@
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.completed p {
+    text-decoration: line-through;
+    opacity: .7;
+}
+
+.buttons {
+    display: flex;
+    gap: 1vw;
+}
+
+.completeBtn {
+    background: #22a6b3;
+}
+
+.deleteBtn {
+    background: #eb4d4b;
+}
